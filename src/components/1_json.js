@@ -54,7 +54,7 @@ export default function Json(){
     const [jsonInput, setJsonInput] = useState("")
     const [convertedJSON, setConvertedJSON] = useState({purchaseOrder: {}})
     const {purchaseOrder} = convertedJSON
-
+    console.log(sample)
 
     const handleConvertJson = () => {
         try {

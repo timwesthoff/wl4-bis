@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Navbar from './Navbar'
 import Json from './1_json';
 import Xml from './2_xml';
-import {Tabs, Tab, Paper} from '@material-ui/core'
+import {Tabs, Tab} from '@material-ui/core'
 
 export default function Playground(){
     const [currentTab, setCurrentTab] = useState(0)
@@ -19,9 +19,6 @@ export default function Playground(){
                     <Tab label="JSON" />
                     <Tab label="XML" />
                 </Tabs>
-                <Paper style={{padding: "1rem"}}>
-
-                </Paper>
             {currentTab === 0 && <Json/> }
              {currentTab === 1 &&   <Xml/>}
             </div>

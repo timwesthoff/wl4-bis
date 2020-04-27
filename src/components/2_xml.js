@@ -52,7 +52,7 @@ export default function Xml(){
     const [xmlInput, setXMLInput] = useState("")
     const [convertedXML, setConvertedXML] = useState({purchaseOrder: {}})
     const {purchaseOrder} = convertedXML
-
+    console.log(sample)
 
     const handleConvertXML = () => {
         const options = {ignoreComment: true, compact: true};
