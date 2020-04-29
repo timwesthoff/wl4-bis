@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/wl4-bis/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/wl4-bis/static/js/main.ec1f7ce0.chunk.js",
+    "main.js.map": "/wl4-bis/static/js/main.ec1f7ce0.chunk.js.map",
+    "runtime-main.js": "/wl4-bis/static/js/runtime-main.f4c4c5cb.js",
+    "runtime-main.js.map": "/wl4-bis/static/js/runtime-main.f4c4c5cb.js.map",
+    "static/js/2.9cd5cfe1.chunk.js": "/wl4-bis/static/js/2.9cd5cfe1.chunk.js",
+    "static/js/2.9cd5cfe1.chunk.js.map": "/wl4-bis/static/js/2.9cd5cfe1.chunk.js.map",
+    "index.html": "/wl4-bis/index.html",
+    "precache-manifest.59502dbe2db7e942cbbfeb4081608688.js": "/wl4-bis/precache-manifest.59502dbe2db7e942cbbfeb4081608688.js",
+    "service-worker.js": "/wl4-bis/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/wl4-bis/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.9cd5cfe1.chunk.js.LICENSE.txt": "/wl4-bis/static/js/2.9cd5cfe1.chunk.js.LICENSE.txt",
+    "static/media/thu-logo.png": "/wl4-bis/static/media/thu-logo.3ff61d7f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4c4c5cb.js",
+    "static/js/2.9cd5cfe1.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.ec1f7ce0.chunk.js"
+  ]
+}
