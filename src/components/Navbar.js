@@ -10,7 +10,7 @@ export default function Navbar(){
                 </a>
             </div>
             <div>
-                Business Information Systems SS 2020 <br/> WL 4
+                BIS WL 4<br/>XML & JSON Exercise
             </div>
         </div>
     )

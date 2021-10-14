@@ -87,7 +87,7 @@ export default function Json(){
                         </div>
                         <div style={{height: "380px", width: "300px", overflow: "auto", border: "1px solid gray", padding: "1rem", borderRadius: "5px"}}>
                             <h3>
-                                Purchase Order {purchaseOrder.uid && `No. ${purchaseOrder.id}`}
+                                Purchase Order {purchaseOrder.id && `No. ${purchaseOrder.id}`}
                             </h3>
                             <div style={{marginBottom: "1rem"}}>
                                 <div style={{fontWeight: "bold", marginBottom: ".5rem"}}>

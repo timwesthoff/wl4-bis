@@ -50,20 +50,21 @@ const sample = `<purchaseOrder>
 
 export default function Xml(){
     const [xmlInput, setXMLInput] = useState("")
-    const [convertedXML, setConvertedXML] = useState({purchaseOrder: {}})
+    const initialObject = {purchaseOrder: {}}
+    const [convertedXML, setConvertedXML] = useState(initialObject)
     const {purchaseOrder} = convertedXML
+
     console.log(sample)
 
     const handleConvertXML = () => {
         const options = {ignoreComment: true, compact: true};
         const converted = convert.xml2js(xmlInput.replace(/`/g, ""), options);
         console.log(converted)
-        setConvertedXML(converted)
-           // to convert xml text to javascript object
-        // const converted = JSON.parse(xmlInput)
-        // if (converted.purchaseOrder){
-        //     setConvertedXML(JSON.parse(xmlInput))
-        // }
+        if (converted.purchaseOrder){
+            setConvertedXML(converted)
+        } else {
+            setConvertedXML(initialObject)
+        }
     }
 
     return(
@@ -84,7 +85,7 @@ export default function Xml(){
                         </div>
                         <div style={{height: "380px", width: "300px", overflow: "auto", border: "1px solid gray", padding: "1rem", borderRadius: "5px"}}>
                             <h3>
-                                Purchase Order {purchaseOrder.uid && `No. ${purchaseOrder.id}`}
+                                Purchase Order {purchaseOrder.id && `No. ${purchaseOrder.id}`}
                             </h3>
                             <div style={{marginBottom: "1rem"}}>
                                 <div style={{fontWeight: "bold", marginBottom: ".5rem"}}>
