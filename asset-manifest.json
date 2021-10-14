@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/bis-demo/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/bis-demo/static/js/main.efb84eb4.chunk.js",
-    "main.js.map": "/bis-demo/static/js/main.efb84eb4.chunk.js.map",
-    "runtime-main.js": "/bis-demo/static/js/runtime-main.2f05e34e.js",
-    "runtime-main.js.map": "/bis-demo/static/js/runtime-main.2f05e34e.js.map",
-    "static/js/2.04559ab7.chunk.js": "/bis-demo/static/js/2.04559ab7.chunk.js",
-    "static/js/2.04559ab7.chunk.js.map": "/bis-demo/static/js/2.04559ab7.chunk.js.map",
-    "index.html": "/bis-demo/index.html",
-    "precache-manifest.7814d9d25285dcfbf163d7faf8dd5368.js": "/bis-demo/precache-manifest.7814d9d25285dcfbf163d7faf8dd5368.js",
-    "service-worker.js": "/bis-demo/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/bis-demo/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.04559ab7.chunk.js.LICENSE.txt": "/bis-demo/static/js/2.04559ab7.chunk.js.LICENSE.txt",
-    "static/media/thu-logo.png": "/bis-demo/static/media/thu-logo.3ff61d7f.png"
+    "main.css": "/wl4-bis/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/wl4-bis/static/js/main.8096c738.chunk.js",
+    "main.js.map": "/wl4-bis/static/js/main.8096c738.chunk.js.map",
+    "runtime-main.js": "/wl4-bis/static/js/runtime-main.f4c4c5cb.js",
+    "runtime-main.js.map": "/wl4-bis/static/js/runtime-main.f4c4c5cb.js.map",
+    "static/js/2.04559ab7.chunk.js": "/wl4-bis/static/js/2.04559ab7.chunk.js",
+    "static/js/2.04559ab7.chunk.js.map": "/wl4-bis/static/js/2.04559ab7.chunk.js.map",
+    "index.html": "/wl4-bis/index.html",
+    "precache-manifest.9cc2a7d54c23c9139482e81cb6d7ff9a.js": "/wl4-bis/precache-manifest.9cc2a7d54c23c9139482e81cb6d7ff9a.js",
+    "service-worker.js": "/wl4-bis/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/wl4-bis/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.04559ab7.chunk.js.LICENSE.txt": "/wl4-bis/static/js/2.04559ab7.chunk.js.LICENSE.txt",
+    "static/media/thu-logo.png": "/wl4-bis/static/media/thu-logo.3ff61d7f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2f05e34e.js",
+    "static/js/runtime-main.f4c4c5cb.js",
     "static/js/2.04559ab7.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.efb84eb4.chunk.js"
+    "static/js/main.8096c738.chunk.js"
   ]
 }
