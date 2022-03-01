@@ -53,7 +53,8 @@ export default function Xml(){
     const initialObject = {purchaseOrder: {}}
     const [convertedXML, setConvertedXML] = useState(initialObject)
     const {purchaseOrder} = convertedXML
-
+    
+    console.log("--> XML solution:")
     console.log(sample)
 
     const handleConvertXML = () => {
